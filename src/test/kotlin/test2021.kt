@@ -6,10 +6,10 @@ class Tests2021 {
     @Test
     fun day1() {
         fun parse(path: String) = File(path).readLines().map { it.toInt() }
-        assertEquals(7, sonarSweep(parse("inputs/2021/day1-test.txt")))
-        assertEquals(1374, sonarSweep(parse("inputs/2021/day1.txt")))
-        assertEquals(5, sonarSweep2(parse("inputs/2021/day1-test.txt")))
-        assertEquals(1418, sonarSweep2(parse("inputs/2021/day1.txt")))
+        assertEquals(7    , sonarSweep(parse("inputs/2021/day1-test.txt")))
+        assertEquals(1374 , sonarSweep(parse("inputs/2021/day1.txt")))
+        assertEquals(5    , sonarSweep2(parse("inputs/2021/day1-test.txt")))
+        assertEquals(1418 , sonarSweep2(parse("inputs/2021/day1.txt")))
     }
 
     @Test
