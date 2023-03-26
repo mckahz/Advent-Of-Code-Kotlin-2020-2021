@@ -9,7 +9,7 @@ class Tests2021 {
         assertEquals(7, sonarSweep(parse("inputs/2021/day1-test.txt")))
         assertEquals(1374, sonarSweep(parse("inputs/2021/day1.txt")))
         assertEquals(5, sonarSweep2(parse("inputs/2021/day1-test.txt")))
-    //    assertEquals(1418, sonarSweep2(parse("inputs/2021/day1.txt")))
+        assertEquals(1418, sonarSweep2(parse("inputs/2021/day1.txt")))
     }
 
     @Test
